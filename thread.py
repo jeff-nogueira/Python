@@ -12,7 +12,7 @@ def conectado(con, cliente):
         if not msg: break
         print cliente, msg
 
-    print 'Finalizando conexao do cliente', cliente
+    print 'Conexão finalizada!', cliente
     con.close()
     thread.exit()
 
