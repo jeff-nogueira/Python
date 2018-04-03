@@ -4,7 +4,7 @@ from chatterbot import ChatBot
 
 bot = ChatBot('Test')
 
-conv = ['oi','olá','tudo bem','Sim,e voce','bem','que bom']
+conv = ['oi','olá','tudo bem','Sim,e voce']
 
 bot.set_trainer(ListTrainer)
 bot.train(conv)
