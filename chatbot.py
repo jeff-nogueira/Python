@@ -5,6 +5,7 @@ from chatterbot import ChatBot
 bot = ChatBot('Test')
 
 conv = ['oi','olá','tudo bem','Sim,e voce']
+convf = ['Qual filme voce gosta','ex machine']
 
 bot.set_trainer(ListTrainer)
 bot.train(conv)
