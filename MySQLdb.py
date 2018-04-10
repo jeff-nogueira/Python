@@ -15,6 +15,6 @@ numrows = int(cursor.rowcount)
 print "--------------------------------------------------"
 print "| ID  Campo                                      |"
 print "--------------------------------------------------"
-# Laço for para retornar os valores, ex.: row[0] primeira coluna, row[1] segunda coluna, row[2] terceira coluna, etc.
+# Laço for para retornar os valores
 for row in cursor.fetchall():
    print " ",row[0]," ",row[1
